@@ -138,8 +138,8 @@ print  """
 
 \033[1;95m🔀⚌⚌⚌⚌⚌⚌⚍⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌ 🔀
                                                                                             """
-CorrectUsername = ""
-CorrectPassword = "VAU"
+CorrectUsername = "shimanto"
+CorrectPassword = "vau"
 
 
 loop = 'true'
@@ -152,10 +152,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.youtube.com/c/BilluTricker')
+            os.system('vau')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.youtube.com/c/BilluTricker')
+        os.system('shimanto')
 
 def login():
 	os.system('clear')
